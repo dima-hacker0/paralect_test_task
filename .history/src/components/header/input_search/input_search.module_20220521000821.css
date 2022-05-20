@@ -1,0 +1,11 @@
+.blockSearch {
+  max-width: 500px;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  height: 40px;
+}
+.icon {
+  position: absolute;
+}
