@@ -1,0 +1,9 @@
+.avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+}
+.profile {
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,16 @@
+.avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.profile {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.description {
+  max-width: 280px;
+  margin: 0 auto;
+}

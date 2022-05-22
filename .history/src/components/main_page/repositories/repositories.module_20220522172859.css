@@ -1,0 +1,12 @@
+.amountRepositories {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.emptyRepo {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

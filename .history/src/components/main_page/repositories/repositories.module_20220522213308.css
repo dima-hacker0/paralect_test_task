@@ -1,0 +1,60 @@
+.amountRepositories {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.emptyRepo {
+  min-height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.emptyRepoTitle {
+  font-size: 22px;
+  color: #808080;
+  margin-top: 24px;
+}
+.blockPaginate {
+  display: flex;
+  align-items: center;
+}
+.activeItemPaginate {
+  width: 21px;
+  height: 25px;
+  background-color: #0064eb;
+  color: white !important;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.itemPaginate {
+  color: #808080;
+  width: 21px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.nextLink {
+  color: #0064eb;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.previousLink {
+  color: #0064eb;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.paginateButtons {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.numberItems {
+  margin-right: 10px;
+  color: #808080;
+}

@@ -1,0 +1,16 @@
+.noRequest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 72px);
+  font-size: 30px;
+  flex-direction: column;
+  color: #808080;
+}
+.textStartSearch {
+  margin-top: 47px;
+}
+.mainPage {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+}

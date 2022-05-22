@@ -1,0 +1,35 @@
+.noRequest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 72px);
+  font-size: 30px;
+  flex-direction: column;
+  color: #808080;
+}
+.textStartSearch {
+  margin-top: 47px;
+}
+.mainPage {
+  background-color: #f5f5f5;
+  padding: 0 10px;
+  padding-top: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.userNotFound {
+  height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
